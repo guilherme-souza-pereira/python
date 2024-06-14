@@ -1,0 +1,7 @@
+vendedor = input("nome do vendedor:")
+salario_fixo = float(input("salario fixo:"))
+vendas = float(input("vendas da loja:"))
+comissão = (vendas*0.15)
+print(vendedor)
+print(salario_fixo)
+print(salario_fixo+comissão)
