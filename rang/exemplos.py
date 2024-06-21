@@ -73,3 +73,84 @@ while (contador<=5):
 # calculando a média das idades:
 media = soma/ (contador-1)
 print(f"A média das idades digitadas é igual: {media}")
+
+#Exemplo 010
+notas = [6,7,5,8,9]
+soma = 0
+x = 0
+while x < 5:
+    soma += notas[x]
+    x += 1
+print(f"Media: {soma/x}")
+
+
+#Exemplo 011
+notas = [0,0,0,0,0]
+soma = 0
+x = 0
+while x < 5:
+    notas[x]=float(input(f"Nota {x}:"))
+    soma += notas[x]
+    x+=1
+x = 0
+while x < 5:
+    print(f"Nota {x}: {notas[x]}")
+    x += 1
+print(f"Media: {soma/x}")
+
+
+#exemplo 12
+nuber = [111, 7, 2, 1]
+print(number[-1])
+print(number[-2])
+
+#exemplo 13
+my_list = [8, 10, 6, 2, 4]
+my_list.sort()
+print(my_list)
+
+#exemplo 14
+list = [5,3,1,2,4]
+print(list)
+print()
+list.reverse()
+print(list) # outputs: [4,0,1,3,5]
+
+
+#exemplo 15 
+list_1 = [5,3,1,2,4]
+list_2 = list_1
+print("lista 1")
+print(list_1)
+print()
+print("lista 2")
+print(list_2)
+print()
+list_1[2] = 99
+print()
+print("lista 1")
+print(list_1)
+print()
+print("lista 2")
+print(list_2)
+print()
+
+
+#exemplo 16
+list_1 = [5,3,99,2,4]
+list_2 = list_1[:]
+print("lista 1")
+print(list_1)
+print()
+print("lista 2")
+print(list_2)
+print()
+list_1[2] = 99
+print()
+print("lista 1")
+print(list_1)
+print()
+print("lista 2")
+print(list_2)
+print()
+
